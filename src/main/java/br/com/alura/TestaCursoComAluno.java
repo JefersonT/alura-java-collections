@@ -37,5 +37,12 @@ public class TestaCursoComAluno {
         System.out.println("Sincorizado depois");
         System.out.println(alunosSincronizados);
 
+        System.out.println(curso.estaMatriculado(a1));
+
+        Aluno aluno = new Aluno("Rodrigo Turini", 123456);
+
+        System.out.println("Comparando turini com hashcode");
+        System.out.println(a1.equals(aluno));
+
     }
 }

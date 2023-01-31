@@ -55,4 +55,8 @@ public class Curso {
     public void matricua(Aluno aluno) {
         alunos.add(aluno);
     }
+
+    public boolean estaMatriculado(Aluno aluno) {
+        return alunos.contains(aluno);
+    }
 }
